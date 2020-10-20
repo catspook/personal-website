@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+nav {
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Spectral';
+    color: white;
+    text-align: center;
+    border-top: 1px solid navy;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+}
+.nav-item:hover {
+    color: magenta;
+}
+h2 {
+    color: navy;
+    font-family: 'Spectral';
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.footer {
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    color: white;
+    text-align: center;
+    border-top: 1px solid purple;
+    height: 45px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-text {
+    font-size: 25px;
+    margin-top: 3px;
+    font-family: 'Spectral';
+}
+.pic-link {
+    color: white;
+}
+.pic-link:hover {
+    color: magenta;
+}
+@media (min-width: 701px) {
+    h1 {
+        font-size: 60px;
+        margin: 5px;
+    }
+    .nav-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav-item, h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+@media (min-width: 415px) and (max-width: 700px) {
+    h1 {
+        font-size: 40px;
+        margin: 3px;
+    }
+    .nav-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav-item, h2 {
+        font-size: 25px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+@media (max-width: 415px){
+    h1 {
+        font-size: 25px;
+        margin: 3px;
+    }
+    .nav-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-item, h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
