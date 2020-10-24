@@ -33,13 +33,11 @@ p {
 }
 .grid-item {
     color: white;
-    font-size: 30px;
     font-family: 'Montserrat';
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    height: 300px;
 }
 .inner {
     width: 100%;
@@ -62,9 +60,9 @@ p {
 #tsj {
 /*<span>Photo by <a href="https://unsplash.com/@remi_ant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Remi Antunes</a> on <a href="https://unsplash.com/s/photos/lavender?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
     background-image: url("images/remi-antunes-LBu4WQxJNMw-unsplash.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 150%;
 }
 #ftp {
     background-image: url("images/ftp.png");
@@ -85,15 +83,15 @@ p {
 /*<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/surveillance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
     background-image: url("images/chuttersnap-T2b8Q6xQjEc-unsplash.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
 }
 #dndb {
 /*<span>Photo by <a href="https://unsplash.com/@clintbustrillos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clint Bustrillos</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
     background-image: url("images/clint-bustrillos-X-A-LJVAhzk-unsplash.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 150%;
 }
 .footer {
     background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
@@ -142,9 +140,12 @@ p {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
-        heiht: 630px;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .grid-item {
+        height: 300px;
+        font-size: 30px;
     }
     .footer {
         height: 45px;
@@ -166,6 +167,18 @@ p {
     p {
         font-size: 20px;
     }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .grid-item {
+        height: 200px;
+        font-size: 25px;
+    }
     .footer {
         height: 45px;
     }
@@ -183,6 +196,18 @@ p {
     }
     p {
         font-size: 20px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .grid-item {
+        height: 100px;
+        font-size: 25px;
     }
     .footer {
         height: 90px;
