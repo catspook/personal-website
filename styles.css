@@ -31,6 +31,70 @@ p {
     text-align: center;
     font-family: 'Montserrat';
 }
+.grid-item {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 300px;
+}
+.inner {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#curry {
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#networking {
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#tsj {
+/*<span>Photo by <a href="https://unsplash.com/@remi_ant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Remi Antunes</a> on <a href="https://unsplash.com/s/photos/lavender?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("images/remi-antunes-LBu4WQxJNMw-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#ftp {
+    background-image: url("images/ftp.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#darkmoor {
+    background-image: url("images/darkmoor-play.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#coderev {
+    background-image: url("images/Darkmoor.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#dataethics {
+/*<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/surveillance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("images/chuttersnap-T2b8Q6xQjEc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#dndb {
+/*<span>Photo by <a href="https://unsplash.com/@clintbustrillos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clint Bustrillos</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("images/clint-bustrillos-X-A-LJVAhzk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 .footer {
     background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
     background-repeat: no-repeat;
@@ -72,6 +136,15 @@ p {
     }
     p {
         font-size: 25px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        heiht: 630px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .footer {
         height: 45px;
