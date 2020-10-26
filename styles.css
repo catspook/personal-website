@@ -6,7 +6,7 @@ html, body {
     font-size: 0;
 }
 nav {
-    background-image: url("images/jp2/graham-holtshausen-fUnfEz3VLv4-unsplash.jp2");
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: 'Spectral';
@@ -57,47 +57,47 @@ p, h3 {
     align-items: center;
 }
 #curry {
-    background-image: url("images/jp2/graham-holtshausen-fUnfEz3VLv4-unsplash.jp2");
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
     background-repeat: repeat;
     background-size: 100%;
 }
 #networking {
-    background-image: url("images/jp2/graveyard.jp2");
+    background-image: url("images/graveyard.png");
     background-repeat: repeat;
     background-size: 100%;
 }
 #tsj {
 /*<span>Photo by <a href="https://unsplash.com/@remi_ant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Remi Antunes</a> on <a href="https://unsplash.com/s/photos/lavender?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/jp2/remi-antunes-LBu4WQxJNMw-unsplash.jp2");
+    background-image: url("images/remi-antunes-LBu4WQxJNMw-unsplash.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: 150%;
 }
 #ftp {
-    background-image: url("images/jp2/ftp.jp2");
+    background-image: url("images/ftp.png");
     background-repeat: repeat;
     background-size: 100%;
 }
 #darkmoor {
-    background-image: url("images/jp2/darkmoor-play.jp2");
+    background-image: url("images/darkmoor-play.png");
     background-repeat: repeat;
     background-size: 100%;
 }
 #coderev {
-    background-image: url("images/jp2/Darkmoor.jp2");
+    background-image: url("images/Darkmoor.png");
     background-repeat: repeat;
     background-size: 100%;
 }
 #dataethics {
 /*<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/surveillance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/jp2/chuttersnap-T2b8Q6xQjEc-unsplash.jp2");
+    background-image: url("images/chuttersnap-T2b8Q6xQjEc-unsplash.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: 100%;
 }
 #dndb {
 /*<span>Photo by <a href="https://unsplash.com/@clintbustrillos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clint Bustrillos</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/jp2/clint-bustrillos-X-A-LJVAhzk-unsplash.jp2");
+    background-image: url("images/clint-bustrillos-X-A-LJVAhzk-unsplash.jpg");
     background-repeat: repeat;
     background-position: center;
     background-size: 150%;
@@ -112,7 +112,7 @@ p, h3 {
     margin-bottom: 2%;
 }
 .footer {
-    background-image: url("images/jp2/graham-holtshausen-fUnfEz3VLv4-unsplash.jp2");
+    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
