@@ -19,7 +19,7 @@ nav {
   text-decoration: none;
   color: white;
 }
-.nav-item:hover {
+.nav-item:hover, .nav-item:focus, .nav-item:active {
     color: magenta;
 }
 h2 {
@@ -27,7 +27,7 @@ h2 {
     font-family: 'Spectral';
     text-align: center;
 }
-p {
+p, h3 {
     text-align: center;
     font-family: 'Montserrat';
 }
@@ -147,10 +147,10 @@ p {
         flex-direction: row;
         justify-content: space-around;
     }
-    .nav-item, h2 {
+    h2 {
         font-size: 40px;
     }
-    p {
+    p, h3 {
         font-size: 25px;
     }
     .grid-container {
@@ -176,10 +176,10 @@ p {
         flex-direction: row;
         justify-content: space-around;
     }
-    .nav-item, h2 {
+    h2 {
         font-size: 30px;
     }
-    p {
+    p, h3 {
         font-size: 20px;
     }
     .grid-container {
@@ -203,10 +203,10 @@ p {
         font-size: 30px;
         margin: 3px;
     }
-    .nav-item, h2 {
+    h2 {
         font-size: 25px;
     }
-    p {
+    p, h3 {
         font-size: 20px;
     }
     .grid-container {
