@@ -74,7 +74,9 @@ p, h3 {
     background-size: 150%;
 }
 #ftp {
-    background-image: url("images/ftp.png");
+/*<span>Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/file?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg");
+    background-position: center;
     background-repeat: repeat;
     background-size: 100%;
 }
