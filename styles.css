@@ -34,6 +34,16 @@ p, h3 {
 .about-content {
     margin-left: 5%;
     margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.abt-container {
+    justify-content: center;
+}
+.abt-pic {
+    width: 50%;
+    height: 50%;
+    display: flex;
 }
 .grid-container {
     gap: 10px;
