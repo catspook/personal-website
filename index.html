@@ -15,25 +15,36 @@
     </head>
     <body>
         <section>
-            <nav>
-                <h1>Hello. I'm Casper.</h1>
-                <div class="nav-row">
-                    <h2><a href="#about" class="nav-item">About</a></h2>
-                    <h2><a href="#projects" class="nav-item">Projects</a></h2>
-                    <h2><a href="#contact" class="nav-item">Contact</a></h2>
+            <div id="header">
+                <ul id="nav">
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+                <div id="name">
+                    <h1>Hi, I'm Casper!</h1>
                 </div>
-            </nav>
-            <div class="about">
-                <h2 id="about">About Me</h2>
-                <div class="about-content">
-                    <div class="abt-container">
-                        <p>Hi folks. This page is currently a work in progress, so check back in a few days for more content.</p>
-                    </div>
-                    <div class="abt-container abt-pic">
-                        <img src="images/me.png" alt="Casper" height="75%" width="75%">
+            <div id="about">
+                <h2>About Me</h2>
+                <div id="about-container">
+                    <div id="profile-section">
+                        <ul>
+                            <li><span class="profile">Name: </span>Casper Rutz</li>
+                            <li><span class="profile">Pronouns: </span>They/Them/Theirs; He/Him/His</li>
+                            <li><span class="profile">Profession: </span>Software Engineer</li>
+                            <li><span class="profile">Education: </span>MS in Computer Science</li>
+                            <li><span class="profile">Location: </span>Portland, OR (moving to Berlin, Germany)</li>
+                            <li><span class="profile">Availability: </span>Open</li>
+                        </ul>
+                        <img id="my-pic" src="images/me.png" alt="Casper">
                         <!--NO ONE has permission to copy, alter, crop, or otherwise use "me.png" in any form for any reason.-->
                     </div>
+                        <p>I first learned to code during night shifts in the hospital laboratory where I worked as a <a class="link-style" href="https://www.verywellhealth.com/medical-technologist-career-profile-1736165" target="_blank" rel="noreferrer">Medical Technologist</a>. A year later I entered an accelerated Computer Science postbac program at <a class="link-style" href="https://www.pdx.edu/computer-science/master" target="_blank" rel="noreferrer">Portland State University</a>, where I later graduated with a Masters of Computer Science. During my Masters I developed a love for functional programming and completed two specialization tracks (<i>Databases</i> and <i>Languages and Programming</i>), two internships, and a TA position (for the <i>Full Stack Web Development</i> and <i>Front End Web Technologies</i> courses).</p> 
+                        <p>In practice, I'm a full stack developer who enjoys trying out new techniques and improving the effeciency, stability, and safety of existing code. I have a strong understanding of the theoretical and practical side of several programming paradigms, which allows me to identify alternative solutions to problems depending on how much factors like effeciency and stability should be prioritized.</p>
+                        <p class="last">When I'm not coding I enjoy vegan cooking, adding books to my ever-growing 'to-read' pile, and playing with my two cats. I have an abiding love of fantasy games and let out my creativity by programming my own old-school rougelikes and running a Dungeons and Dragons game.</p>
                 </div>
+            </div>
+            <div class="projects">
                 <h2 id="projects">Projects</h2>
                 <div class="grid-container">
                     <div class="grid-item" id="curry"><div class="inner"><h3>Curry</h3></div></div>
@@ -45,7 +56,9 @@
                     <div class="grid-item" id="dataethics"><div class="inner"><h3>Algorithm and Data Collection Bias</h3></div></div>
                     <div class="grid-item" id="dndb"><div class="inner"><h3>The DnD Database</h3></div></div>
                 </div>
-                <h2 id="contact">Let's Connect!</h2>
+            </div>
+            <div id="contact">
+                <h2>Let's Connect!</h2>
                 <p class="contact-container">Send me a message on LinkedIn if you want to chat. Check my GitHub page to see what I'm currently working on!</p>
                 <div class="buttons">
                     <a href="https://www.linkedin.com/in/casper-rutz-they-them-8199a2a0/" target="_blank" rel="noreferrer"><img src="images/LI-Logo.png" alt="LinkedIn" height="30px" width="120px"></a>
@@ -54,7 +67,7 @@
             </div>
             <div class="footer">
                 <p class="footer-text">&#169; 2020 Casper Rutz<p>
-                <p class="footer-text">Background photo by <a class="pic-link" href="https://unsplash.com/@freedomstudios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Graham Holtshausen</a> on <a class="pic-link" href="https://unsplash.com/photos/fUnfEz3VLv4" target="_blank" rel="noreferrer">Unsplash</a></p>
+                <p class="footer-text">Background photo by <a class="pic-link" href="https://unsplash.com/@thisistherealdiana" target="_blank" rel="noreferrer">diana</a> on <a class="pic-link" href="https://unsplash.com/photos/cszeo3eugBI" target="_blank" rel="noreferrer">Unsplash</a></p>
             </div>
         </section>
     </body>
