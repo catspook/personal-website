@@ -46,15 +46,53 @@
             </div>
             <div class="projects">
                 <h2 id="projects">Projects</h2>
-                <div class="grid-container">
-                    <div class="grid-item" id="curry"><div class="inner"><h3>Curry</h3></div></div>
-                    <div class="grid-item" id="networking"><div class="inner"><h3>Networking for Graveyard</h3></div></div>
-                    <div class="grid-item" id="tsj"><div class="inner"><h3>The Seed Journal</h3></div></div>
-                    <div class="grid-item" id="ftp"><div class="inner"><h3>FTP Client</h3></div></div>
-                    <div class="grid-item" id="darkmoor"><div class="inner"><h3>The Shadow Over Darkmoor</h3></div></div>
-                    <div class="grid-item" id="coderev"><div class="inner"><h3>The Rationale of Typed Lisps</h3></div></div>
-                    <div class="grid-item" id="dataethics"><div class="inner"><h3>Algorithm and Data Collection Bias</h3></div></div>
-                    <div class="grid-item" id="dndb"><div class="inner"><h3>The DnD Database</h3></div></div>
+                <button class="expandme"><h3>Curry</h3></button>
+                <div id="curry" class="dropdown">
+                    <div class="content">
+                        <p>Curry dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>Networking for Graveyard</h3></button>
+                <div id="networking" class="dropdown">
+                    <div class="content">
+                        <p>Networking dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>The Seed Jounal</h3></button>
+                <div id="tsj" class="dropdown">
+                    <div class="content">
+                        <p>The Seed Journal dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>Unix FTP Client</h3></button>
+                <div id="ftp" class="dropdown">
+                    <div class="content">
+                        <p>FTP dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>The Shadow Over Darkmoor</h3></button>
+                <div id="darkmoor" class="dropdown">
+                    <div class="content">
+                        <p>Darkmoor dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>The Rationale of Typed Lisps</h3></button>
+                <div id="typed-lisps" class="dropdown">
+                    <div class="content">
+                        <p>Typed Lisps dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme"><h3>Algorithm and Data Collection Bias</h3></button>
+                <div id="algo-bias" class="dropdown">
+                    <div class="content">
+                        <p>Algo Bias dropdown</p>
+                    </div>
+                </div>
+                <button type="button" class="expandme last"><h3>The D&#38;D Database</h3></button>
+                <div id="dndb" class="dropdown dnd-dropdown last">
+                    <div class="content">
+                        <p>DnDB dropdown</p>
+                    </div>
                 </div>
             </div>
             <div id="contact">
@@ -71,4 +109,27 @@
             </div>
         </section>
     </body>
+    <script>
+        /* Sourced from https://www.w3schools.com/howto/howto_js_collapsible.asp,
+           with my own changes*/
+        var coll = document.getElementsByClassName("expandme");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("expanded");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
 </html>

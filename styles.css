@@ -94,32 +94,52 @@ ul {
     color: #330080;
 }
 .last {
-    margin-bottom: 50px;
+    margin-bottom: 75px !important;
 }
 /*--------------------------------------------------*/
-.grid-container {
-    gap: 10px;
-    margin: 5%;
-}
-.grid-item {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.expandme {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #333333;
+    border: 0px;
     border-radius: 10px;
-}
-.inner {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 50%;
+    color: white;
+    font-size: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-#curry {
-    background-image: url("images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
-    background-repeat: repeat;
-    background-size: 100%;
+.expanded, .expandme:hover {
+    color: #d1b3ff;
+    background-color: #1F1F1F;
+}
+.expandme:after {
+    content: "+";
+    color: white;
+}
+.expanded:after {
+    content: "-";
+    color: #d1b3ff;
+}
+.dropdown {
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: none;
+    overflow: hidden;
+    background-color: #EFEEE6;
+    color: black;
+    max-height: 0;
+}
+.dnd-dropdown {
+    margin-top: -75px !important;
+}
+.content {
+    margin-left: 10px;
 }
 #networking {
     background-image: url("images/graveyard.png");
