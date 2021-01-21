@@ -1,3 +1,3 @@
-### My Personal Website
+# My Personal Website
 
-Find it at iamcasper.surge.sh
+This contains the source code for my personal website, which you can find [here](iamcasper.surge.sh)!
