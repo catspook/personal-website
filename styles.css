@@ -135,7 +135,7 @@ ul {
     color: black;
     max-height: 0;
 }
-.dnd-dropdown {
+.last-dropdown {
     margin-top: -75px !important;
 }
 .content {
