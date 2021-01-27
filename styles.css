@@ -129,60 +129,40 @@ ul {
     margin-bottom: 20px;
     border-radius: 10px;
     text-align: left;
-    display: none;
-    overflow: hidden;
     background-color: #EFEEE6;
     color: black;
     max-height: 0;
+    overflow: hidden;
 }
 .last-dropdown {
     margin-top: -75px !important;
 }
 .content {
-    margin-left: 10px;
+    padding: 10px;
 }
-#networking {
-    background-image: url("images/graveyard.png");
-    background-repeat: repeat;
-    background-size: 100%;
+.project-info {
+    color: #330080; 
 }
-#tsj {
-/*<span>Photo by <a href="https://unsplash.com/@remi_ant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Remi Antunes</a> on <a href="https://unsplash.com/s/photos/lavender?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/remi-antunes-LBu4WQxJNMw-unsplash.jpg");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 150%;
+.tsj-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-#ftp {
-/*<span>Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/file?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 100%;
+#tsj-image {
+    height: 30%;
+    width: 40%;
 }
-#darkmoor {
-    background-image: url("images/darkmoor-play.png");
-    background-repeat: repeat;
-    background-size: 100%;
+.tsj-link {
+    color: #330080;
+    text-decoration: none;
 }
-#coderev {
-    background-image: url("images/Darkmoor.png");
-    background-repeat: repeat;
-    background-size: 100%;
+.tsj-list {
+    list-style-type: disc;
+    margin-left: 5%;
 }
-#dataethics {
-/*<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/surveillance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/chuttersnap-T2b8Q6xQjEc-unsplash.jpg");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 100%;
-}
-#dndb {
-/*<span>Photo by <a href="https://unsplash.com/@clintbustrillos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clint Bustrillos</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
-    background-image: url("images/clint-bustrillos-X-A-LJVAhzk-unsplash.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-size: 150%;
+.github-link-box {
+    display: flex;
+    justify-content: center;
 }
 /*--------------------------------------------------*/
 #contact {
@@ -251,6 +231,14 @@ ul {
         width: 250px;
         margin: auto;
     }
+    .tsj-pics {
+        flex-direction: column;
+    }
+    #tsj-image {
+        padding: 10px;
+        width: 70%;
+        margin: auto;
+    }
 }
 @media (max-width: 415px) {
     #header {
@@ -280,6 +268,14 @@ ul {
     #my-pic {
         height: 200px;
         width: 200px;
+        margin: auto;
+    }
+    .tsj-pics {
+        flex-direction: column;
+    }
+    #tsj-image {
+        padding: 10px;
+        width: 90%;
         margin: auto;
     }
 }
