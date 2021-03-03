@@ -74,6 +74,14 @@
                 <div id="darkmoor" class="dropdown">
                     <div class="content">
                         <p class="project-info">Jan 2019 - Aug 2020 | Solo</p>
+                        <div class="tsj-pics">
+                            <img id="tsj-image" src="images/main.png" alt="The Shadow Over Darkmoor's main menu">
+                            <img id="tsj-image" src="images/inventory.png" alt="The Shadow Over Darkmoor's inventory menu">
+                        </div>
+                        <p class="project-info"><i>Over the last few weeks, travel to and from the town of Darkmoor has trickled to a halt, save for a few refugees who whisper of necromancy and other horrors. These murmerings have reached the Queen's ears, and she has sent you to find the truth. You arrive in Darkmoor as darkness falls. Your mission is simple: survive.</i></p>
+                        <p>The Shadow Over Darkmoor is a text based roguelike game featuring over 100 locations to explore, maps, over 40 unique items to find, and over 30 enemy types. Darkmoor is written entirely in Clojure, a modern Lisp dialect, using functional programming.</p>
+                        <p>I taught myself both Clojure and functional programming for this project because I wanted to experiment with using immutability and persistent data structures to avoid the state bugs and difficulty of updating I'd encountered while writing a similar game in C++. Of course writing a game, which is virtually nothing but side effects and state changes, in a paradigm that shuns both those things was difficult so early into my coding career!</p>
+                        <p>A year later I completely revamped Darkmoor to include more functionality, smoother programming design choices, improved UI, containerized data structures, enemy stat scaling, and much more. To date Darkmoor remains the only project I've had the opportunity to redo.</p>
                         <div class="github-link-box">
                             <a href="https://github.com/catspook/Shadow_Over_Darkmoor" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
@@ -101,6 +109,9 @@
                 <div id="algo-bias" class="dropdown">
                     <div class="content">
                         <p class="project-info">Jun 2019 - Aug 2019 | Group</p>
+                        <p>In this technical report, myself and four other students present our research into race and gender biases in machine learning algorithms used in natural language processing, facial recognition systems, criminal justice software, and medical software. All algorithms and systems we looked at were rife with bias and inequality, often to an alarming and shocking degree. Consequences range from "merely" perpetuating harmful stereotypes against marginalized communities, to unequitable crime sentancing and access to medical care.</p>
+                        <p>Unfortunately, fixing the bias inherent in these systems is not an easy task. Some algorithms are employed in problematic industries with their own history of injustices; improving the algorithm would only make it a better tool for the industry in question to use against marginalized people.</p>
+                        <p>I wrote and researched section 3, <i>Gender and Racial Bias in Facial Recognition Systems</i>.</p>
                         <div class="github-link-box">
                             <a href="https://github.com/hrosegalb/AlgorithmBias" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
@@ -128,6 +139,16 @@
                 <div id="ftp" class="dropdown last-dropdown last">
                     <div class="content">
                         <p class="project-info">Jun 2020 - Aug 2020 | Group</p>
+                        <p>This FTP client was written as part of the <i>Agile Software Development</i>course at PSU, on a team using Agile development practices. Our FTP client is written in Python, using Pytest for unit testing and Pylint to ensure PEP8 guidelines were followed. The FTP client only works in Unix/OSX systems, and aimed to replicate the native Unix ftp client as much as possible.</p>
+                        <p>I set up a FTP server in AWS which our client connected to. I also wrote the following code:</p>
+                        <ul class="tsj-list">
+                            <li>Connect to the server</li>
+                            <li>Log in and out</li>
+                            <li>Contributed to time-out functionality</li>
+                            <li>Commands: move directory, remove directory, change file permissions</li>
+                            <li>Validate user input (our client accepts nearly all of the file names and formats Unix supports)</li>
+                            <li>Command line interface, including code to handle mistypes and server errors</li>
+                        </ul>
                         <div class="github-link-box">
                             <a href="https://gitlab.com/Aly_Tomato/python-ftp-client" target="_blank" rel="noreferrer"><img src="images/gitlab-icon-1-color-black-rgb.png" alt="Gitlab Logo" height="50px" width="50px"></a>
                         </div>
