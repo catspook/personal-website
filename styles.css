@@ -56,6 +56,7 @@ h2 {
     color: #330080;
     font-size: 40px;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 #about {
@@ -78,6 +79,7 @@ h2 {
     justify-content: left;
 }
 ul {
+    padding-top: 25px;
     list-style: none;
     padding-left: 0;
 }
@@ -87,7 +89,10 @@ ul {
 }
 #my-pic {
     height: fit;
-    margin-left: 12%;
+    border-radius: 100px;
+    border: 3px solid #330080;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 .link-style {
     text-decoration: none;
