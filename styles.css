@@ -89,7 +89,7 @@ ul {
 }
 #my-pic {
     height: fit;
-    border-radius: 100px;
+    border-radius: 50px;
     border: 3px solid #330080;
     margin-left: 15%;
     margin-right: 10%;
@@ -231,10 +231,10 @@ ul {
     #profile-section {
         flex-direction: column;
         height: 480px;
+        margin-bottom: 60px;
     }
     #my-pic {
-        height: 250px;
-        width: 250px;
+        height: 300px;
         margin: auto;
     }
     .tsj-pics {
@@ -273,7 +273,6 @@ ul {
     }
     #my-pic {
         height: 200px;
-        width: 200px;
         margin: auto;
     }
     .tsj-pics {
