@@ -28,14 +28,14 @@
                 <h2>About Me</h2>
                 <div id="about-container">
                     <div id="profile-section">
-                        <img id="my-pic" src="images/Casper3.jpg" alt="Casper">
+                        <img id="my-pic" src="images/Casper.jpg" alt="Casper">
                         <!--NO ONE has permission to copy, alter, crop, or otherwise use "me.png" in any form for any reason.-->
                         <ul>
                             <li><span class="profile">Name: </span>Casper Rutz</li>
-                            <li><span class="profile">Pronouns: </span>They/Them/Theirs; He/Him/His</li>
+                            <li><span class="profile">Pronouns: </span>they/them or he/him</li>
                             <li><span class="profile">Profession: </span>Software Engineer</li>
                             <li><span class="profile">Education: </span>MS in Computer Science</li>
-                            <li><span class="profile">Location: </span>Portland, OR (Berlin, Germany in April 2021)</li>
+                            <li><span class="profile">Location: </span>Moving to Berlin, Germany</li>
                             <li><span class="profile">Availability: </span>Open</li>
                         </ul>
                     </div>
@@ -91,6 +91,7 @@
                 <div id="curry" class="dropdown">
                     <div class="content">
                         <p class="project-info">Oct 2020 - Dec 2020 | Solo</p>
+                        <p>??</p>
                         <div class="github-link-box">
                             <a href="https://github.com/catspook/the-seed-journal" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
@@ -100,6 +101,7 @@
                 <div id="networking" class="dropdown">
                     <div class="content">
                         <p class="project-info">Oct 2020 - Dec 2020 | Solo</p>
+                        <p>??</p>
                         <div class="github-link-box">
                             <a href="https://github.com/catspook/graveyard" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
@@ -109,20 +111,23 @@
                 <div id="algo-bias" class="dropdown">
                     <div class="content">
                         <p class="project-info">Jun 2019 - Aug 2019 | Group</p>
-                        <p>In this technical report, myself and four other students present our research into race and gender biases in machine learning algorithms used in natural language processing, facial recognition systems, criminal justice software, and medical software. All algorithms and systems we looked at were rife with bias and inequality, often to an alarming and shocking degree. Consequences range from "merely" perpetuating harmful stereotypes against marginalized communities, to unequitable crime sentancing and access to medical care.</p>
-                        <p>Unfortunately, fixing the bias inherent in these systems is not an easy task. Some algorithms are employed in problematic industries with their own history of injustices; improving the algorithm would only make it a better tool for the industry in question to use against marginalized people.</p>
+                        <p>In this technical report, myself and four other students present our research into race and gender biases in machine learning algorithms used in natural language processing, facial recognition systems, criminal justice software, and medical software. All of the algorithms we researched were rife with bias and inequality, with causes ranging from biased training datasets or design choices to a neglect to research the scientific backing of certain aspects of the algorithm before development. Consequences include the perpetuation of harmful stereotypes, an increased chance of targeted violence, unequitable crime sentancing, and the denial of medical care to women and racial, ethnic, and gender minorities.</p>
+                        <p>Unfortunately, fixing the bias inherent in these systems is not an easy task for a variety of reasons. The lack of scientific backing during development, proprietary algorithms, general lack of awareness, or the support of these systems within certain industries all play a part.</p>
                         <p>I wrote and researched section 3, <i>Gender and Racial Bias in Facial Recognition Systems</i>.</p>
                         <div class="github-link-box">
                             <a href="https://github.com/hrosegalb/AlgorithmBias" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
                     </div>
                 </div>
-                <button type="button" class="expandme"><h3>The Rationale of Typed Lisps</h3></button>
+                <button type="button" class="expandme"><h3>The History of Lisp and the Hindley-Milner Typing System</h3></button>
                 <div id="typed-lisps" class="dropdown">
                     <div class="content">
                         <p class="project-info">Oct 2019 - Dec 2019 | Solo</p>
+                        <p>This paper began as an experiment for PSU's Code Reading and Review course to see if I found typed Lisps easier to read than untyped Lisps. Many typed Lisps use the Hindley-Milner typing system, which I was biased against due to the dislike of Haskell I had at that time. In an effort to debias myself I spoke with one of the designers of Haskell, Mark Jones, about the rationale behind the inclusion of the Hindley-Milner typing system as one of the core features of Haskell. When Mark informed me that the Hindley-Milner typing system was partly inspired by Lisp, I decided to make that relationship the focus of my research instead.</p>
+                        <p>In summary: Lisp pioneered dynamic typing, as static typing could not support the flexibility inherent to Lisp. Dynamic typing, however, comes with certain drawbacks--namely that typing errors are often not found before runtime and can instead crop up as "rather inscrutable bugs", as Henry Milner put it. These frustrations led to efforts to develop a typing system that supported flexible programming, but would be strict enough to avoid runtime type errors. That effort eventually culminated in the Hindley-Milner typing system, which was first described by Roger Hindley and later rediscovered by Milner.</p>
+                        <p>Instead of introducing this typing system to Lisp, Milner built a new language around it. This language was ML, which has spawned several popular programming languages used today such as Haskell and Ocaml. It was only after several decades that the popularity of these languages lead to the creation of a popular typed Lisp: typed Racket.</p>.
                         <div class="github-link-box">
-                            <a href="https://github.com/catspook/the-seed-journal" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
+                            <a href="https://github.com/catspook/typed-lisps" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
                     </div>
                 </div>
@@ -130,6 +135,9 @@
                 <div id="dndb" class="dropdown">
                     <div class="content">
                         <p class="project-info">May 2019 - Jun 2019 | Solo</p>
+                        <p>cons: very long queries, can't do quickly; many tables need to be updated for every edition; lots of manual inputting of descriptions with little cross-over ability; data possibly too segmented becuase I was worried about tables being too large and having too many tables. projet scope too large, needed to cut back during project, would have been better if i'd picked a smaller subset of data and expanded later.</p>
+                        <p>pros: gave me experience designing AND using a db, realized i needed to prioritize usability and data standardization more than i did; lots of ID usage, so easy to ensure information input is correct and lookup times should be faster in theory due to id indexing.</p> 
+                        <p>Ideally: complicated queries would probably be fine with a front end, a search function with a form filter for long queries); would spend more time reading through data beforehand to develop standardized way of inputting. like have one table be for storing all the kinds of spell targets, one for effects, one for saving throw effects, etc.</p>
                         <div class="github-link-box">
                             <a href="https://github.com/catspook/dndb" target="_blank" rel="noreferrer"><img src="images/GitHub-Mark-120px-plus.png" alt="Github" height="41px" width="41px"></a>
                         </div>
@@ -171,11 +179,12 @@
     </body>
     <script>
         /* Sourced from https://www.w3schools.com/howto/howto_js_collapsible.asp,
-           with my own changes*/
+           though I debugged and added my own changes*/
         var coll = document.getElementsByClassName("expandme");
+        var len = coll.length
         var i;
 
-        for (i = 0; i < coll.length; i++) {
+        for (i = 0; i < len; i++) {
           coll[i].addEventListener("click", function() {
             this.classList.toggle("expanded");
             var content = this.nextElementSibling;

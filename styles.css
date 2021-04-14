@@ -21,6 +21,7 @@ body {
     padding-right: 20%;
     align-items: center;
     font-size: 60px;
+    text-shadow: 0 0 3px #1F1F1F, 0 0 3px #1F1F1F;
 }
 #nav {
     width: 100%;
