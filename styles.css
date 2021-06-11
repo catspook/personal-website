@@ -5,11 +5,22 @@ body {
     font-family: 'Roboto';
     text-align: center;
 }
+:root {
+    --light-purple: #d1b3ff;
+    --dark-purple: #330080; 
+    --light-grey: #333333; 
+    --dark-grey: #1F1F1F;
+    --brown: #EFEEE6;
+    --white: white;
+}
 .light-purple {
-    color: #d1b3ff;
+    color: var(--light-purple);
 }
 .dark-purple {
-    color: #330080; 
+    color: var(--dark-purple); 
+}
+.smaller {
+    font-size: 14px;
 }
 .galada {
     font-family: 'Galada';
@@ -24,7 +35,7 @@ body {
 }
 #nav {
     width: 100%;
-    background-color: #1F1F1F;
+    background-color: var(--dark-grey);
     padding: 0;
     list-style: none;
     position: fixed;
@@ -42,7 +53,7 @@ body {
     text-decoration: none;
 }
 .nav-item:hover, .nav-item:focus, .nav-item:active {
-    color: white;
+    color: var(--white);
 }
 #name {
     height: inherit;
@@ -52,7 +63,7 @@ body {
     padding-right: 20%;
     align-items: center;
     font-size: 60px;
-    text-shadow: 0 0 3px #1F1F1F, 0 0 3px #1F1F1F;
+    text-shadow: 0 0 3px var(--dark-grey), 0 0 3px var(--dark-grey);
 }
 h1 {
     width: 40%;
@@ -67,8 +78,8 @@ h2 {
 }
 
 #about {
-    background-color: #EFEEE6;
-    border: 1px solid #EFEEE6;
+    background-color: var(--brown);
+    border: 1px solid var(--brown);
 }
 #about-container {
     height: 80%;
@@ -92,7 +103,7 @@ h2 {
 }
 #my-pic {
     border-radius: 50px;
-    border: 3px solid #330080;
+    border: 3px solid var(--dark-purple);
     margin-left: 15%;
     margin-right: 10%;
 }
@@ -108,10 +119,10 @@ h2 {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
-    background-color: #333333;
+    background-color: var(--light-grey);
     border: 0px;
     border-radius: 10px;
-    color: white;
+    color: var(--white);
     font-size: 15px;
     display: flex;
     justify-content: space-between;
@@ -119,15 +130,15 @@ h2 {
 }
 .expanded, .expandme:hover {
     color: #d1b3ff;
-    background-color: #1F1F1F;
+    background-color: var(--dark-grey);
 }
 .expandme:after {
     content: "+";
-    color: white;
+    color: var(--white);
 }
 .expanded:after {
     content: "-";
-    color: #d1b3ff;
+    color: (--light-grey);
 }
 .dropdown {
     width: 80%;
@@ -136,7 +147,7 @@ h2 {
     margin-bottom: 20px;
     border-radius: 10px;
     text-align: left;
-    background-color: #EFEEE6;
+    background-color: var(--brown);
     color: black;
     max-height: 0;
     overflow: hidden;
@@ -168,8 +179,8 @@ h2 {
 #contact {
     min-height: 300px;
     height: 50vh;
-    background-color: #EFEEE6;
-    border: 1px solid #EFEEE6;
+    background-color: var(--brown);
+    border: 1px solid var(--brown);
 }
 .contact-container {
     margin-left: 5%;
@@ -186,8 +197,8 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F1F1F; 
-    color: white;
+    background-color: var(--dark-grey); 
+    color: var(--white);
     font-family: 'Galada';
 }
 .footer-text {
@@ -195,11 +206,11 @@ h2 {
     margin: 5px;
 }
 .pic-link {
-    color: #d1b3ff;
+    color: var(--light-purple);
     text-decoration: none;
 }
 .pic-link:hover, .pic-link:focus, .pic-link:active {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 /*--------------------------------------------------*/
